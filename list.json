@@ -1,0 +1,15 @@
+{
+  "response": {
+    "list": [
+      {"name": "Akash"},
+      {"name": "Ayush"},
+      {"name": "Sugandha"},
+      {"name": "Simran"},
+      {"name": "Arun"},
+      {"name": "Mukul"},
+      {"name": "Amit"},
+      {"name": "Priyanka"}
+    ]
+  },
+  "error": null
+}
