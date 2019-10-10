@@ -1,0 +1,27 @@
+{
+  "screens": [
+    {
+      "name": "Login",
+      "flow": "vertical",
+      "background": "#FFFFFF",
+      "accent": "#ff0000",
+      "children": [
+        {
+          "type": "textInput",
+          "placeholder": "Email",
+          "validatorRegex": "^[a-zA-Z0-9_!#$%&’*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$"
+        },
+        {
+          "type": "textInput",
+          "placeholder": "Password",
+          "validatorRegex": "^.{6,}$"
+        },
+        {
+          "type": "submit",
+          "text": "Login",
+          "display": "Button"
+        }
+      ]
+    }
+  ]
+}
